@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -17,35 +17,35 @@ export const Guests = () => {
 
   const guests = [
     {
-      image: '/Kermen.jpg',
+      image: 'Kermen.jpg',
       caption: 'Кермен',
     },
     {
-      image: '/Andrew2.jpg',
+      image: 'Andrew2.jpg',
       caption: 'Андрей',
     },
     {
-      image: '/Tsagana3.jpg',
+      image: 'Tsagana3.jpg',
       caption: 'Цагана',
     },
     {
-      image: '/Anastasia.jpg',
+      image: 'Anastasia.jpg',
       caption: 'Анастасия',
     },
     {
-      image: '/Irokez3.jpg',
+      image: 'Irokez3.jpg',
       caption: 'Евгений',
     },
     {
-      image: '/Viktoria.jpg',
+      image: 'Viktoria.jpg',
       caption: 'Жена Евгения',
     },
     {
-      image: '/Nastya.jpg',
+      image: 'Nastya.jpg',
       caption: 'Настя',
     },
     {
-      image: '/Misha2.jpg',
+      image: 'Misha2.jpg',
       caption: 'Михаил',
     },
   ];
