@@ -1,0 +1,38 @@
+.Schedule {
+  padding-bottom: 30px;
+  background: #040021;
+}
+
+.Schedule__item {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+  padding: 15px;
+  margin: 0 50px;
+}
+
+.Schedule__time {
+  font-size: 40px;
+  color: #66def5;
+  line-height: 40px;
+  min-width: 120px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: #66def5;  
+}
+
+@media (max-width: 700px) {
+  .Schedule__item {
+    gap: 30px;
+    padding: 15px;
+    margin: 0;
+  }
+  .Schedule__time {
+    font-size: 30px;
+    line-height: 30px;
+    min-width: 70px;
+  }
+}
